@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Kullanıcılar";
+}
+
+@Scripts.Render("~/bundles/knockout")
+
+<h3>Kullanıcı Listesi</h3>
+<div class="widget" style="width: 98% !important; margin-left:1%">
+    <h4 class="widgettitle" style="background-color:#808080; margin-bottom:-5px !important">Filtreler</h4>
+    <div class="widgetcontent">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="inputEmail1" class="col-md-3 control-label">Isim</label>
+                <input id="userName" type="text" class="form-control input-default" placeholder="Ad, Soyad, Kullanıcı Adı">
+            </div>           
+
+        </div>
+    </div>
+    <!-- widgetcontent-->
+</div>
+
+@*<a class="btn btn-danger alertdanger" href="@Url.Action("Register","Account")" style="margin-left:1%"><small>Yeni Kullanıcı</small></a>*@
+
+<div class="maincontentinner">
+    <h4 class="widgettitle">Kullanıcı Listesi</h4>
+    <div id="dyntable_wrapper" class="dataTables_wrapper" role="grid">
+        <div id="dyntable_length" class="dataTables_length">
+            <label>
+                Gösterilecek Kayıt
+                    <select id="tablePageSize" size="1" aria-controls="dyntable">
+                        <option value="10">10</option>
+                        <option value="25" selected="selected">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                sayısı</label>
+        </div>
+
+
+        <ul class="gridblog" data-bind="foreach: user_index.UserList()">
+            <!-- start of loop here -->
+            <li style="width: 20% !important">
+                <div class="inner">
+                    <div class="gridthumb">
+                        <div class="gridimg">
+                            <img src="/images/blog.png" alt="">
+                        </div>
+                    </div>
+                    <h3><a href=""><span data-bind="text: Name"></span></a></h3>
+                    <div class="blogmeta">Birim: <a href=""><span data-bind="text: Departman"></span>/<span data-bind="text: Cheif"></span></a> &nbsp;-&nbsp; <a href="">Sorun Sayısı</a></div>
+                    <p><a class="readmore" href="">Detay <span class="iconfa-arrow-right"></span></a></p>
+                </div>
+            </li>
+        </ul>
+
+        <div class="controls text-center">
+            <button type="submit" name="submit" class="btn blue btn-primary getReport hide">&nbsp;Get Report</button>
+            <a href="javascript:;" class="btn blue getReport hide"><i class="icon-reorder"></i>&nbsp;Get Report</a>
+            <p class="clearfix"></p>
+        </div>
+        @Html.Partial("_ODataPager")
+
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <script src="~/Scripts/application/user_index.js"></script>
+    <script>
+        $(document).ready(function () {
+            user_index.init();
+        });
+
+        function pagerAction(action, pageNum) {
+            user_index.pagerAction(action, pageNum);
+        }
+    </script>
+}

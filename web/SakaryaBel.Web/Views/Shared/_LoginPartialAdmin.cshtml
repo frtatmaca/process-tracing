@@ -1,0 +1,47 @@
+﻿<div class="logo">
+    <a href="/Home/Index">
+        <img src="~/images/logo.png" style="margin-top: -11%" height="90" width="90" alt="">
+    </a>
+</div>
+<div class="headerinner">
+    <ul class="headmenu">
+        <li class="">
+            @{
+                SakaryaBel.Web.Identity.BlogContext db = new SakaryaBel.Web.Identity.BlogContext();
+                string username = User.Identity.Name;
+                string imageUrl = "";
+                var userInfo = db.Users.Where(m => m.UserName == username).Select(m => new { UserId = m.Id, Url = m.FileId.HasValue ? m.File.FileName : "", UserType = m.UserType }).FirstOrDefault();
+                if (!string.IsNullOrEmpty(userInfo.Url))
+                {
+                    imageUrl = "/Files/" + userInfo.Url;
+                }
+                else
+                {
+                    imageUrl = "/Files/user_unknown.png";
+                }
+
+                string userId = userInfo.UserId;
+            }
+            <a href="/User/index" class="dropdown-toggle" data-toggle="dropdown" data-target="/User/index">
+                <span class="head-icon head-users"></span>
+                <span class="headmenu-label">Kadromuz</span>
+            </a>
+        </li>
+        <li class="right">
+            <div class="userloggedinfo">
+                <a href="/User/Edit/@userId">
+                    <img src="@imageUrl" height="80" width="50" alt="">
+                </a>
+                <div class="userinfo">
+                    <h5>@User.Identity.Name<small>-@userInfo.UserType.ToString()</small></h5>
+                    <ul>
+                        @*<li><a href="editprofile.html">Edit Profile</a></li>*@
+                        <li><a href="/User/Edit/@userId">Profil Düzenle</a></li>
+                        <li><a href="/Account/Logout">Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!--headmenu-->
+</div>

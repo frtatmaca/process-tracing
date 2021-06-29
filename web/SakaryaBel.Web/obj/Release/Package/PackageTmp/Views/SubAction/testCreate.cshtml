@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<html>
+<head>
+    <title></title>
+  
+   
+    <style type="text/css">
+        .table-style {
+            margin-left: 150px;
+        }
+
+            .table-style tr td {
+                height: 50px;
+            }
+    </style>
+    <script type="text/javascript">
+        function OnSuccess(response) {
+            if (response == "success") {
+                parent.jQuery.fancybox.close();
+            } else {
+                alert("Error. Please check out");
+            }
+        }
+    </script>
+</head>
+<body style="background-color:#fff;">
+    <div style="height: 30px; width: 599.4px; background-color: #558cc3; border: 0px solid red; text-align: center;">
+        <b style="color: white;"> Create New Student</b>
+        <div style="float:right; height:30px; width:30px; border-left:1px solid #c8c8c8">
+            <a href="javascript:parent.jQuery.fancybox.close();" style="color: orange; cursor: pointer; text-decoration: none; "><i style="font-size:20px; text-decoration:none">X</i></a>
+        </div>
+    </div>
+    <br /><br />
+    
+</body>
+</html>
+
+

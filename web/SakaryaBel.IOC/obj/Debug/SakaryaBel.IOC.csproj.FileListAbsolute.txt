@@ -1,0 +1,200 @@
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Unity.Mvc4.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.csprojResolveAssemblyReference.cache
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Unity.Mvc4.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.csprojResolveAssemblyReference.cache
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Unity.Mvc4.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Unity.Mvc4.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.IOC.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Unity.Mvc4.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.dll
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Core.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Data.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\SakaryaBel.Services.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\Newtonsoft.Json.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Net.Http.Formatting.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Helpers.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Http.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Mvc.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.Razor.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\System.Web.WebPages.Razor.xml
+D:\SakaryaBel\SakaryaBel.IOC\bin\Debug\EntityFramework.xml
+D:\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.csprojResolveAssemblyReference.cache
+D:\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.dll
+D:\SakaryaBel\SakaryaBel.IOC\obj\Debug\SakaryaBel.IOC.pdb

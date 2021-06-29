@@ -1,0 +1,35 @@
+<ion-view>
+    <ion-content>
+        <div class="list">
+            <a class="item item-avatar" href="#/menu/profile">
+                <img src="{{user.profileImage}}">
+                <h2>{{user.firstName}} {{user.lastName}}</h2>
+                <p>{{user.userName}}</p>
+                <div class="text">
+                    <span class="item-note">Profil</span>
+                </div>
+            </a>
+            <div class="list">
+                <a class="item item-icon-left" href="#/menu/users">
+                    <i class="icon ion-ios-people"></i> 
+                    Kullanicilar
+                </a> 
+                <a class="item item-icon-left" href="#/menu/reports">
+                    <i class="icon ion-bug"></i>
+                    Talepler
+                </a>
+                <a class="item item-icon-left" href="#/menu/actions">
+                    <i class="icon ion-arrow-swap"></i>
+                    Faliyetler
+                </a>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar align-title="center" class="bar bar-light">
+        <div class="button-bar">
+            <button class="button button-positive icon-left ion-ios-plus-outline" ng-click="addUser()">
+                Yeni Sorun Ekle
+            </button>
+        </div>
+    </ion-footer-bar>
+</ion-view>

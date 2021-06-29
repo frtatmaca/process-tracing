@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakaryaBel.Core", "SakaryaBel.Core\SakaryaBel.Core.csproj", "{A10F5914-CC72-4FA0-BE31-A9C5D28AE8C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakaryaBel.Data", "SakaryaBel.Data\SakaryaBel.Data.csproj", "{430F6E2C-79D9-4A09-BEFD-36C430ED82BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakaryaBel.IOC", "SakaryaBel.IOC\SakaryaBel.IOC.csproj", "{59B3F11A-C283-414F-8E98-5FAEE1C20565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakaryaBel.Services", "SakaryaBel.Services\SakaryaBel.Services.csproj", "{ECA52C2D-3433-4966-9058-9384B2D8DE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakaryaBel.Web", "SakaryaBel.Web\SakaryaBel.Web.csproj", "{D633D7CC-151C-47BA-B88C-C55E61C945DB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www(3)", "http://localhost:3444", "{795DC174-3C62-4D11-9D08-2F02F37A9C02}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3444"
+		Debug.AspNetCompiler.PhysicalPath = "..\projeler\sakaryabel\www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3444\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3444"
+		Release.AspNetCompiler.PhysicalPath = "..\projeler\sakaryabel\www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3444\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\projeler\sakaryabel\www\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A10F5914-CC72-4FA0-BE31-A9C5D28AE8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10F5914-CC72-4FA0-BE31-A9C5D28AE8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10F5914-CC72-4FA0-BE31-A9C5D28AE8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10F5914-CC72-4FA0-BE31-A9C5D28AE8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430F6E2C-79D9-4A09-BEFD-36C430ED82BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430F6E2C-79D9-4A09-BEFD-36C430ED82BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430F6E2C-79D9-4A09-BEFD-36C430ED82BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430F6E2C-79D9-4A09-BEFD-36C430ED82BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B3F11A-C283-414F-8E98-5FAEE1C20565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B3F11A-C283-414F-8E98-5FAEE1C20565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B3F11A-C283-414F-8E98-5FAEE1C20565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B3F11A-C283-414F-8E98-5FAEE1C20565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA52C2D-3433-4966-9058-9384B2D8DE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA52C2D-3433-4966-9058-9384B2D8DE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA52C2D-3433-4966-9058-9384B2D8DE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA52C2D-3433-4966-9058-9384B2D8DE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D633D7CC-151C-47BA-B88C-C55E61C945DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D633D7CC-151C-47BA-B88C-C55E61C945DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D633D7CC-151C-47BA-B88C-C55E61C945DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D633D7CC-151C-47BA-B88C-C55E61C945DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795DC174-3C62-4D11-9D08-2F02F37A9C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795DC174-3C62-4D11-9D08-2F02F37A9C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795DC174-3C62-4D11-9D08-2F02F37A9C02}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{795DC174-3C62-4D11-9D08-2F02F37A9C02}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

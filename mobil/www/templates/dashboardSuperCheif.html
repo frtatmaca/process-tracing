@@ -1,0 +1,42 @@
+<ion-view>
+  <ion-content >
+    <div class="list">
+      <a class="item item-avatar" href="#/menu/profile">
+        <img src="{{user.profileImage}}">
+        <h2>{{user.firstName}} {{user.lastName}}</h2>
+        <p>{{user.userName}}</p>
+        <div class="text">
+                  <span class="item-note">Profil</span>
+        </div>
+      </a>
+    </div>
+
+      <div class="list">
+        <a class="item item-icon-left" ng-click='problemDetail(problem.actionId)' ng-repeat="problem in problems" style="background-color: red !important;" >
+          <i ng-if="problem.backGroundColor=='kirmizi'"class="icon ion-ios-timer-outline"></i>
+          <i ng-if="problem.backGroundColor=='yesil'" class="icon ion-ios-checkmark-outline"></i>
+          <i ng-if="problem.backGroundColor=='mavi'" class="ion-ios-minus-empty-outline"></i>
+          <div class="text" style="background-color: red !important;" >
+                    <h2>  {{problem.name}}</h2>
+                    <span class="item-note">{{problem.stringCreatedDate}}</span>
+                    <p>Yeni</p>
+
+
+          </div>
+
+        </a>
+      </div>
+      <!-- <div class="button-bar">
+        <button class="button button-positive icon-left ion-ios-plus-outline" ng-click="newReport()">
+          Yeni Sorun Ekle
+        </button>
+      </div> -->
+  </ion-content>
+  <ion-footer-bar align-title="center" class="bar bar-light">
+    <div class="button-bar">
+      <button class="button button-positive icon-left ion-ios-plus-outline" ng-click="newReport()">
+        Yeni Sorun Ekle
+      </button>
+    </div>
+  </ion-footer-bar>
+</ion-view>

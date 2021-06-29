@@ -1,0 +1,379 @@
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Antlr3.Runtime.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Owin.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Optimization.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Providers.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Unity.Mvc4.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\WebGrease.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csprojResolveAssemblyReference.cache
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csprojResolveAssemblyReference.cache
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.userCheifId.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.UserType.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.convertstringuserId.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.adduserIAudit.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableupdate.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.createdByUserId.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.usertableforeignkey.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.testforeignkey.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableForeignKey.resources
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csproj.GenerateResource.Cache
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Antlr3.Runtime.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Owin.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Rotativa.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Optimization.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Providers.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Unity.Mvc4.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\WebGrease.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.userCheifId.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.UserType.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.convertstringuserId.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.adduserIAudit.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableupdate.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.createdByUserId.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.usertableforeignkey.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.testforeignkey.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableForeignKey.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.FaliyetAdetAlani.resources
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csproj.GenerateResource.Cache
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll.config
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Antlr3.Runtime.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Owin.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Rotativa.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Optimization.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Providers.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Unity.Mvc4.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\WebGrease.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll.config
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Antlr3.Runtime.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Owin.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Rotativa.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Optimization.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Providers.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Unity.Mvc4.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\WebGrease.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.userCheifId.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.UserType.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.convertstringuserId.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.adduserIAudit.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableupdate.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.createdByUserId.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.usertableforeignkey.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.testforeignkey.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableForeignKey.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.FaliyetAdetAlani.resources
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csproj.GenerateResource.Cache
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll.config
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Web.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\Antlr3.Runtime.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Owin.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Rotativa.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Optimization.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Providers.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Unity.Mvc4.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\WebGrease.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Data.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.IOC.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Services.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\EntityFramework.SqlServer.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\Newtonsoft.Json.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Net.Http.Formatting.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Helpers.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Http.WebHost.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Mvc.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.Razor.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Deployment.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\System.Web.WebPages.Razor.xml
+D:\SakaryaBel\SakaryaBel.Web\bin\SakaryaBel.Core.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\SakaryaBel\SakaryaBel.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csprojResolveAssemblyReference.cache
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.userCheifId.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.UserType.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.convertstringuserId.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.adduserIAudit.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableupdate.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.createdByUserId.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.usertableforeignkey.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.testforeignkey.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.IAuditableForeignKey.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.Migrations.FaliyetAdetAlani.resources
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.csproj.GenerateResource.Cache
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.dll
+D:\SakaryaBel\SakaryaBel.Web\obj\Debug\SakaryaBel.Web.pdb

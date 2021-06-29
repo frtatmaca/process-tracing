@@ -1,0 +1,27 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h2 class="title" style="color:blue">Sisteme Giriş</h2>
+  </ion-header-bar>
+  <ion-content class="ion-login">
+      <div class="row row-center">
+          <div class="col col-center">
+              <img ng-src="{{logo}}" width="128" height="128" />
+          </div>
+      </div>
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label pull-right">Kullanıcı Adı</span>
+          <input type="text" ng-model="user.UserName">
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label pull-right">Şifre</span>
+          <input type="password" ng-model="user.Password">
+        </label>
+        <label class="item" style="border-bottom:white">
+          <button class="button icon-right ion-log-in  button-balanced " ng-click="doLogin()" >Giriş&nbsp&nbsp     </button>
+        </label>
+      </div>
+
+  </ion-content>
+</ion-modal-view>

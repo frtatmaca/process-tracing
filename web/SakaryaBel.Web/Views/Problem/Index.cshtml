@@ -1,0 +1,244 @@
+﻿@using System.Web.Helpers;
+
+@{
+    ViewBag.Title = "Sorun Listesi";
+}
+
+@Scripts.Render("~/bundles/knockout")
+
+
+<link href="~/Content/css/select2.css" type="text/css" rel="stylesheet" />
+
+<style>
+    #ticketResponse {
+        height: auto;
+        height: 50px;
+    }
+
+    body:before {
+        background-color: #f2f2f2;
+    }
+
+    .select2-container {
+        width: 100%;
+    }
+</style>
+
+<h3>Sorun Listesi</h3>
+<div class="widget" style="width: 98% !important; margin-left: 1%">
+    <h4 class="widgettitle" style="background-color: #808080; margin-bottom: -5px !important">Filtreler</h4>
+    <div class="widgetcontent">
+        <div class="row">
+            <div class="col-md-5">
+                <label for="actionName" class="col-md-3 control-label">Sorun Adı</label>
+                <input id="problemName" type="text" class="form-control input-default" placeholder="Sorun Adı">
+            </div>
+
+            <div class="col-md-5">
+                <label for="actionName" class="col-md-3 control-label">Kullanıcı Listesi</label>
+                @Html.TextBox("ddlUserList", "", new { id = "ddlUserList", @class = "col-md-3" })
+            </div>
+
+            <div class="col-md-5">
+                <label for="actionName" class="col-md-3 control-label">Sorun Durumu</label>
+                <select id="ddlProblemStatus" name="ddlProblemStatus" onchange="problem_index.CallChangefunc()">
+                    <option value="-1">Hepsi</option>
+                    <option value="0">Yeni</option>
+                    <option value="1">Yöneticiye Atanan</option>
+                    <option value="2">Tamamlanan</option>
+                </select>
+            </div>
+
+            <div class="clearfix"></div>
+            <br />
+            <div class="col-md-6">
+                <label for="inputPassword" class="col-md-2 control-label">Başlangıç Tarihi</label>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input id="datepicker" style="width:150px" type="text" placeholder="dd/MM/yyyy" name="date" class="form-control startDate datepicker" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword" class="col-md-2 control-label">Bitiş Tarihi</label>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input id="datepicker2" style="width: 150px" type="text" placeholder="dd/MM/yyyy" name="date" class="form-control endDate datepicker" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- widgetcontent-->
+</div>
+
+<div class="maincontentinner">
+    <div id="dyntable_wrapper" class="dataTables_wrapper" role="grid">
+        <div id="dyntable_length" class="dataTables_length">
+            <label>
+                Gösterilecek Kayıt
+                <select id="tablePageSize" size="1" aria-controls="dyntable">
+                    <option value="10">10</option>
+                    <option value="25" selected="selected">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                sayısı
+            </label>
+        </div>
+
+        <table id="dyntable" class="table table-bordered responsive dataTable" aria-describedby="dyntable_info">
+            <thead>
+                <tr role="row">
+                    <th class="head0 nosort sorting_asc" role="columnheader" tabindex="0" aria-controls="dyntable" rowspan="1" colspan="1" aria-sort="ascending" aria-label=": activate to sort column ascending" style="width: 46px;">
+                        <div class="checker" id="uniform-undefined">
+                            <span>
+                                <input type="checkbox" class="checkall" style="opacity: 0;">
+                            </span>
+                        </div>
+                    </th>
+                    <th class="head0 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 300px;">Başlık</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Detay</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Oluşturulma Tarihi</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Tamamlanma Tarihi</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Oluşturan</th>
+                    <th class="head0 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 185px;">Action</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: problem_index.ProblemList()">
+                <tr class="gradeX odd" data-bind="style: { backgroundColor: BackGroundColor(),color:'white' }">
+                    <td class="aligncenter  sorting_2">
+                        <span class="center">
+                            <div class="checker">
+                                <span>
+                                    <input class="commentApprove" type="checkbox" style="opacity: 0;">
+                                </span>
+                            </div>
+                        </span>
+                    </td>
+
+                    <td class="">
+                        <a class="createEditStudent" style="color: white; font-size: 14px" data-fancybox-type="iframe" data-bind="attr: { href: '/Problem/ProblemDetail/' + ActionId() }"><span data-bind="text: Name"></span></a>
+                    </td>
+
+                    <td class=""><span data-bind="text: Description"></span></td>
+                    <td class=""><span data-bind="text: StringCreatedDate"></span></td>
+                    <td class=""><span data-bind="text: StringCompletedDate"></span></td>
+                    <td class=""><span data-bind="text: CreatedUserName"></span></td>
+                    <td class="center">
+                        @*<div class="btn-group">
+                                <button data-toggle="dropdown" class="btn btn-info dropdown-toggle">Action<span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)" onclick="javascript:problem_index.actionStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'aktif' }">Aktif</a></li>
+                                    <li><a href="javascript:void(0)" onclick="javascript:problem_index.actionStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'pasif' }">Pasif</a></li>
+                                    <li><a href="javascript:void(0)" onclick="javascript:problem_index.actionStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'delete' }">Delete</a></li>
+                                </ul>
+                            </div>*@
+                        <a data-bind="attr: { href: '/Problem/Edit/'+ ActionId() }" class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i></a>
+                        <a class="btn btn-default alertboxbutton" data-bind="attr: { 'data-Id': ActionId() }" onclick="javascript:problem_index.problemStatusReplace(this);"><small>Sil</small></a>
+                        @*<a class="btn btn-default alertboxbutton" data-bind="attr: { 'data-Id': ActionId() }" onclick="javascript:problem_index.problemStatusReplace(this);"><small>Sil</small></a>*@
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        @*<div class="peoplelist">
+                <div class="row" data-bind="foreach: problem_index.ProblemList()">
+
+                    <div class="col-md-3">
+                        <div class="peoplewrapper" style="background-color:aliceblue">
+                            <div class="thumb">
+                                <img class="col-md-2" style="padding-top:2% !important" src="~/images/photos/nothumb.png" alt="">
+                            </div>
+                            <div class="peopleinfo">
+                                <h4>
+                                    <a href=""><span data-bind="text: Name"></span></a>
+                                    <br /><span class="off" data-bind="text: Description"></span>
+                                    <br /><span class="pull-right" style="font-size: 20px !important" data-bind="text: SubActionCount"></span>
+                                    <br />
+                                </h4>
+                            </div>
+                            <!--peopleinfo-->
+                        </div>
+                        <!--peoplewrapper-->
+                    </div>
+
+                </div>
+            </div>*@
+        <!--peoplelist-->
+
+        <div class="controls text-center">
+            <button type="submit" name="submit" class="btn blue btn-primary getReport hide">&nbsp;Get Report</button>
+            <a href="javascript:;" class="btn blue getReport hide"><i class="icon-reorder"></i>&nbsp;Get Report</a>
+            <p class="clearfix"></p>
+        </div>
+        @Html.Partial("_ODataPager")
+
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/Scripts/application/problem_index.js"></script>
+    <script src="~/Scripts/select2.js"></script>
+
+    <script src="~/Scripts/adminTemplateJs/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/Scripts/adminTemplateJs/js/jquery-ui-1.10.3.min.js"></script>
+
+    <script src="~/Scripts/adminTemplateJs/js/bootstrap-timepicker.min.js"></script>
+
+    <script>
+        var pageSize = 10000;
+        var userList = '@Html.Raw(Json.Encode(ViewBag.UserList))'
+        console.log(userList);
+        var obj = jQuery.parseJSON(userList);
+        $('#ddlUserList').select2(
+            {
+                placeholder: 'Lütfen Kullanıcı Seçiniz',
+                minimumInputLength: 0,
+                multiple: true,
+                allowClear: true,
+                ajax: {
+                    quietMillis: 150,
+                    url: '/Problem/GetUserList/',
+                    dataType: 'jsonp',
+                    type: "POST",
+                    data: function (term, page) {
+                        return {
+                            searchTerm: term,
+                            pageSize: pageSize,
+                            pageNum: page
+                        };
+                    },
+                    results: function (data, page) {
+                        var more = (page * pageSize) < data.Total;
+                        return { results: data.Results, more: more };
+                    }
+                }
+            }).on('change', function (e) {
+                problem_index.trigerLoadFromServer();
+            }).on('select', function (e) {
+                console.log("select");
+            }).select2("data", $.parseJSON(userList));
+
+        $(document).ready(function () {
+            problem_index.init();
+
+            jQuery(".datepicker").datepicker({
+                buttonImageOnly: true,
+                dateFormat: "dd/mm/yy",
+                monthNames: ["Ocak", "Subat", "Mart", "Nisan", "Mayis", "Haziran", "Temmuz", "Agustos", "Eylul", "Ekim", "Kasim", "Aralik"],
+                dayNamesMin: ["Pts", "Sl", "Crs", "Prs", "Cm", "Cts", "Pzr"]
+            });
+        });
+
+        function pagerAction(action, pageNum) {
+            problem_index.pagerAction(action, pageNum);
+        }
+    </script>
+}

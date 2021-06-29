@@ -1,0 +1,31 @@
+﻿@model ContentDetail
+<link href="~/Content/player/video-js.css" rel="stylesheet" type="text/css">
+<script src="~/Content/player/video.js"></script>
+@*<script> videojs.options.flash.swf = "~/Content/player/video-js.swf";</script>*@
+<style>
+    .video-js {
+        padding-top: 56.25%;
+    }
+
+    .vjs-fullscreen {
+        padding-top: 0px;
+    }
+</style>
+<video id="example_video_1" class="video-js vjs-default-skin"
+       controls preload="none" width="auto" height="auto"
+       poster="~/Content/player/poster.png"
+       data-setup="{}">
+    <source src="@Model.SourceUrl" type='video/mp4' />
+    <source src="@Model.SourceUrl" type='video/webm' />
+    <source src="@Model.SourceUrl" type='video/ogg' />
+    <source src="@Model.SourceUrl" type="video/x-ms-wmv" />
+    <source src="@Model.SourceUrl" type="video/3gpp" />
+    <source src="@Model.SourceUrl" type="video/m4v" />
+    <source src="@Model.SourceUrl" type="video/mpeg" />
+    <source src="@Model.SourceUrl" type="video/quicktime" />
+    <!--<track kind="captions" src="~/Content/player/demo.captions.vtt" srclang="en" label="English"></track> Tracks need an ending tag thanks to IE9 -->
+    <!--<track kind="subtitles" src="~/Content/player/demo.captions.vtt" srclang="en" label="English"></track> Tracks need an ending tag thanks to IE9 -->
+    @*<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>*@
+</video>
+<br />
+<div class="space-6"></div>

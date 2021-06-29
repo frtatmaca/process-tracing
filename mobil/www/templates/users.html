@@ -1,0 +1,28 @@
+﻿<ion-view>
+    <ion-content class="ion-unit" has-header="false" scroll="true">
+        <div class="row row-center">
+            <div class="col col-center">
+
+                <ion-list show-reorder="false" can-swipe="true">
+                    <a class="item item-avatar" ng-if="users.length>0" href="#/menu/profile" ng-repeat="u in users">
+                        <img src="{{u.profileImage}}">
+                        <h2>{{u.firstName}} {{u.lastName}}</h2>
+                        <p>{{u.userName}}</p>
+                        <div class="text">
+                            <span class="item-note">Profil</span>
+                        </div>
+                    </a>
+                </ion-list>
+
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar align-title="center" class="bar bar-light">
+        <div class="button-bar">
+            <button class="button button-positive icon-left ion-person-add" ng-click="openNewUserModal()">
+                Yeni Kullanici Ekle
+            </button>
+        </div>
+    </ion-footer-bar>
+</ion-view>
+

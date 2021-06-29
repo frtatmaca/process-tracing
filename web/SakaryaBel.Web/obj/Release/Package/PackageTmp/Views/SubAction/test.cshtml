@@ -1,0 +1,90 @@
+﻿@model List<SakaryaBel.Web.Models.StudentInformation>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .createEditStudent {
+        background-color: #ffffff;       
+    }
+</style>
+
+@Html.Partial("PlayerControl", new ContentDetail { SourceUrl = "/Files/sdgfsdfgsdgfsdgfsdfgsdgfvideo_1.mp4" })
+
+<h2>Student</h2>
+<p>
+    <a class="createEditStudent btn btn-primary" data-fancybox-type="iframe" href="@Url.Action("testCreate", "SubAction")">Create New Student</a>
+    <a class="createEditStudent btn btn-primary" data-fancybox-type="iframe" href="#myModalIcons" >Create New</a>    
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Firname
+        </th>
+        <th>
+            lastname
+        </th>
+        <th>
+            course
+        </th>
+        <th>
+            phone
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                <a class="createEditStudent btn btn-primary" data-fancybox-type="iframe" href="@Url.Action("Edit", "Student", new {id=item.ID })">Edit</a>
+                <a class="createEditStudent btn btn-primary" data-fancybox-type="iframe" href="@Url.Action("Details", "Student", new { id = item.ID })">Details</a>
+                <a class="createEditStudent btn btn-danger" data-fancybox-type="iframe" href="@Url.Action("Delete", "Student", new {id=item.ID })">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+@section Scripts {          
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.createEditStudent').fancybox({
+                fitToView: false,
+                width: '600px',
+                height: '400px',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none',
+                padding: 0,
+                closeBtn: false,
+                'afterClose': function () {
+                    //window.location.reload();
+                },
+                helpers: {
+                    overlay: {
+                        css: {                                                       
+                        }
+                    }
+                }
+            });
+        });
+
+    </script>
+}

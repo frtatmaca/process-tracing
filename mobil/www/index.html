@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src *; style-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/sweetalert/dist/sweetalert.css" rel="stylesheet">
+    <!-- <link href="css/dataurl.css" rel="stylesheet"> -->
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- <script src="lib/pace.min.js"></script> -->
+    <script src="lib/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="lib/lz-string/libs/lz-string.min.js"></script>
+    <script src="lib/uri.js/uri.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <!-- your app's js -->
+    <!-- <script src="js/utilities.js"></script> -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/appSettings.js"></script>
+    <script src="js/utilities.js"></script>
+</head>
+<body ng-app="sakaryabel">
+    <ion-nav-view></ion-nav-view>
+    <script id="report-modal.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar>
+                <h2 class="title">Sorun Bildir</h2>
+                <div class="buttons">
+                    <button class="button button-assertive" ng-click="closeModal()">
+                        İptal
+                    </button>
+                </div>
+            </ion-header-bar>
+            <ion-content>
+                <div class="list card">
+                    <div class="item item-divider">
+                        <label class="item item-input" style="background-color: transparent;">
+                            <span class="input-label pull-right">Sorun Başlığı</span>
+                            <input type="text" ng-model="report.title" style="background-color: white;">
+                        </label>
+                    </div>
+                    <div class="item item-body">
+                        <img ng-if="resource.Type==0" class="img-rounded" ng-src="{{resource.Url}}" ng-click="showFullImage({{resource.Url}})" style="height:400px;width:300px;display:block">
+                        <video ng-if="resource.Type==1" width="100%" height="400" ng-src="{{resource.Url}}" controls autoplay class="centerme"></video>
+                    </div>
+                    <div class="item item-divider">
+                        <textarea rows="5" placeholder="AÇIKLAMA" ng-model="report.description" style="text-align: center;width:100%"></textarea>
+                    </div>
+                </div>
+            </ion-content>
+            <ion-footer-bar align-title="center" class="bar bar-light">
+                <div class="button-bar">
+                    <button class="button button-positive" ng-click="sendReport()">
+                        Kaydet
+                    </button>
+                </div>
+            </ion-footer-bar>
+        </ion-modal-view>
+    </script>
+    <script id="report-detail-modal.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar>
+                <h2 class="title">Sorun Detay</h2>
+                <div class="buttons">
+                    <button class="button button-assertive" ng-click="closeModal()">
+                        İptal
+                    </button>
+                </div>
+            </ion-header-bar>
+            <ion-content>
+                <div class="list card">
+                    <div class="item item-divider">
+                        <div class="item item-text-wrap">
+                            <h2>{{resource.title}}</h2>
+                        </div>
+                    </div>
+                    <div class="item item-body" ng-click="showFullImage()">
+                        <img ng-if="resource.Type==0" class="img-rounded" ng-src="{{resource.Url}}" style="height:400px;width:300px;display:block">
+                        <video ng-if="resource.Type==1" width="100%" height="400" ng-src="{{resource.Url}}" controls autoplay class="centerme"></video>
+                    </div>
+                    <div class="item item-divider">
+                        <div class="item item-text-wrap">
+                            <h2>{{resource.description}}</h2>
+                        </div>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+    <script id="progress-modal.html" type="text/ng-template">
+        <ion-modal-view style="background-color:transparent !important;margin-top:50%">
+            <ion-content>
+                <div class="list card">
+                    <div class="item item-divider">
+                        <label class="item item-input" style="background-color: transparent;">
+                            <span class="input-label pull-right">İlerleme</span>
+                        </label>
+                    </div>
+                    <div class="item item-body">
+                        <progress id="progressbar" max="100" value="{{ progress.Value|number }}"> </progress>
+                        <div class="item item-text-wrap">
+                            {{ progress.Value|number:2 }} %
+                        </div>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+    <script id="image-modal.html" type="text/ng-template">
+        <div class="modal image-modal transparent">
+            <ion-pane class="transparent">
+                <img ng-src="{{imageSrc}}" class="fullscreen-image" />
+            </ion-pane>
+        </div>
+    </script>
+    <script id="changepassword-modal.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar>
+                <h2 class="title" style="color:blue">Şifre Değiştir</h2>
+            </ion-header-bar>
+            <ion-content>
+                <div class="list">
+                    <label class="item item-input">
+                        <span class="input-label pull-right">Eski Şifre</span>
+                        <input type="password" ng-model="user.OldPassword">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label pull-right">Yeni Şifre</span>
+                        <input type="password" ng-model="user.NewPassword">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label pull-right">Yeni Şifre</span>
+                        <input type="password" ng-model="user.ConfirmPassword">
+                    </label>
+                    <label class="item" style="border-bottom:white">
+                        <button class="button icon-right ion-log-in  button-balanced " ng-click="changePassword()">Değiştir&nbsp&nbsp     </button>
+                    </label>
+                </div>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+    <script id="new-user.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-content>
+                <form name="myForm" novalidate ng-submit="addUser(user)">
+                    <div class="list">
+                        <label class="item item-input">
+                            <input type="text" placeholder="Adı" ng-model="user.Name" name="Name" ng-required="true" ng-minlength="4" ng-maxlength="10">
+                        </label>
+                        <label class="item item-input">
+                            <input type="text" placeholder="Soyadı" ng-model="user.Surname" name="Surname" ng-minlength="2" ng-required="true">
+                        </label>
+                        <label class="item item-input">
+                            <input type="text" placeholder="Kullanıcı Adı" ng-model="user.Username" name="Username" ng-minlength="5" ng-required="true">
+                        </label>
+                        <label class="item item-input">
+                            <input type="email" placeholder="Mail Adresi" ng-model="user.Email" name="Email" ng-minlength="5" ng-required="true">
+                        </label>
+                        <label class="item item-input">
+                            <input type="text" placeholder="Şifre" ng-model="user.Password" name="Password" ng-minlength="6" ng-required="true">
+                        </label>
+                        <label class="item item-input">
+                            <input type="text" placeholder="Tekrar Şifre" ng-model="user.ConfirmPassword" name="ConfirmPassword" equals="{{user.Password}}" ng-required="true">
+                        </label>
+                    </div>
+                    <div class="padding card">
+                        <p ng-show="myForm.Name.$error.required"><i class="ion-information-circled"></i>&nbsp; İsim Giriniz.</p>
+                        <p ng-show="myForm.Name.$error.minlength"><i class="ion-information-circled"></i>&nbsp;İsim en az 4 karakterden oluşmalı.</p>
+
+                        <p ng-show="myForm.Surname.$error.minlength"><i class="ion-information-circled"></i>&nbsp;Soyad giriniz.</p>
+                        <p ng-show="myForm.Surname.$error.required"><i class="ion-information-circled"></i>&nbsp;Soyad en az 4 karakterden oluşmalı.</p>
+                        <p ng-show="myForm.Username.$error.minlength"><i class="ion-information-circled"></i>&nbsp;Kullanıcı adı giriniz.</p>
+                        <p ng-show="myForm.Username.$error.required"><i class="ion-information-circled"></i>&nbsp;Kullanıcı adı en az 4 karakterden oluşmalı.</p>
+
+                        <p ng-show="myForm.Email.$error.minlength"><i class="ion-information-circled"></i>&nbsp;Email adresi en az 5 karakterden oluşmalı</p>
+                        <p ng-show="myForm.Email.$invalid"><i class="ion-information-circled"></i>&nbsp;Geçerli mail adresi girin</p>
+
+                        <p ng-show="myForm.Password.$error.required"><i class="ion-information-circled"></i>&nbsp;Şifre Alanı giriniz. </p>
+                        <p ng-show="myForm.Password.$error.minlength"><i class="ion-information-circled"></i>&nbsp;Şifre Alanı en az 4 karakterden oluşmalı.</p>
+
+                        <p ng-show="myForm.Name.$error.required"><i class="ion-information-circled"></i>&nbsp;Şifreyi Tekrar giriniz.</p>
+
+                        <p ng-show="myForm.ConfirmPassword.$error.equals"><i class="ion-information-circled"></i>&nbsp;Şifreler birbiriyle uyuşmuyor</p>
+                    </div>
+                    <div class="padding">
+                        <button type="submit" class="button button-block button-positive" ng-disabled="myForm.$invalid">Submit</button>
+                    </div>
+                </form>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+</body>
+</html>

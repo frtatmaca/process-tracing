@@ -1,0 +1,115 @@
+﻿@model SakaryaBel.Web.Models.Login
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="~/Scripts/jquery-2.1.4.js"></script>
+    <title>Park ve Bahçeler Şube Müdürlüğü</title>
+    @* @Styles.Render("~/Content/adminTheme")  
+     @Scripts.Render("~/bundles/modernizr")  
+     @Scripts.Render("~/bundles/adminTheme")*@
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/adminThema/css/style.default.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/adminThema/css/style.shinyblue.css" type="text/css">
+
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery-migrate-1.1.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery-ui-1.10.3.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/custom.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#login").submit(function (e) {
+                var u = jQuery('#username').val();
+                var p = jQuery('#password').val();
+                console.log(u);
+                console.log(p);
+                if (u == '' && p == '') {
+                    jQuery('.login-alert').fadeIn();
+                    e.preventDefault();
+                    return false;
+                }
+
+                @*else {
+                $.ajax({
+                    url: "/Message/SendMessageComment/",
+                    type: "POST",
+                    dataType: "json",
+                    data: { messageId: '@Model.MessageId', messageBody: message },
+                    success: function (res) {
+                        if (res == "success") {
+                            alert("Message başarılı bir şekilde gönderildi.");
+                            console.log("Message başarılı şekilde gönderildi.");
+                            $("#messageBody").val("");
+                        } else {
+                            console.log("Messagegönderimi başarısız.");
+                        }
+                    },
+                    error: function (res) {
+                        console.log("Error in process.");
+                        //blmsCommon.hideLoading();
+                    }
+               });
+            }    *@
+            });
+        });
+    </script>
+
+</head>
+
+<body class="loginpage">
+    <div class="loginpanel">
+        <div class="loginpanelinner">
+            <div class="logo animate0 bounceIn">
+                <img alt="Porto" width="150" height="150" style="margin-top: 15px" data-sticky-width="82" data-sticky-height="40" src="~/images/logo.png" />
+            </div>
+            @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { id = "login" }))
+            {        
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)                   
+                <div class="inputwrapper login-alert">
+                    <div class="alert alert-error">Invalid username or password</div>
+                </div>
+                <div class="inputwrapper animate1 bounceIn">
+                    @Html.TextBoxFor(m => m.Username, new { @placeholder = "Kullanıcı Adı", id = "username" })
+                    <br />
+                    <br />
+                    @Html.ValidationMessageFor(m => m.Username, String.Empty, new { @class = "help-inline", @style = "color:white" })
+                </div>
+                <div class="inputwrapper animate2 bounceIn">
+                    @Html.PasswordFor(m => m.Password, new { @placeholder = "Şifre", id = "password" })
+                    <br />
+                    <br />
+                    @Html.ValidationMessageFor(m => m.Password, String.Empty, new { @class = "help-inline", @style = "color:white" })
+                </div>
+                <div class="inputwrapper animate3 bounceIn">
+                    <button type="submit" id="btnSubmit">Sign In</button>
+                </div>
+                <div class="inputwrapper animate4 bounceIn">
+                    @* <div class="pull-right">Not a member? <a href="registration.html">Sign Up</a></div>
+                    <label><input type="checkbox" class="remember" name="signin" /> Keep me sign in</label>*@
+                </div>                            
+            }
+        </div>
+        <!--loginpanelinner-->
+    </div>
+    <!--loginpanel-->
+
+
+    <div class="loginfooter">
+        <p>&copy; 2016. design by Fırat,Cenk.</p>
+    </div>
+
+</body>
+</html>

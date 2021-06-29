@@ -1,0 +1,29 @@
+﻿<div class="logo">
+    <a href="/Admin/Index">
+        <img src="~/images/logo.png" style="margin-top:-11%" height="90" width="90" alt="">
+    </a>
+</div>
+<div class="headerinner">
+    <ul class="headmenu">        
+        <li class="">
+            <a href="/User/index" class="dropdown-toggle" data-toggle="dropdown" data-target="/User/index">                
+                <span class="head-icon head-users"></span>
+                <span class="headmenu-label">Kadromuz</span>
+            </a>           
+        </li>      
+        <li class="right">
+            <div class="userloggedinfo">
+                <img src="~/images/logo.png" height="80" width="50" alt="">
+                <div class="userinfo">
+                    <h5>@User.Identity.Name<small>-Kullanıcı Tipi</small></h5>
+                    <ul>
+                        @*<li><a href="editprofile.html">Edit Profile</a></li>
+                        <li><a href="">Account Settings</a></li>*@
+                        <li><a href="/Account/Logout">Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!--headmenu-->
+</div>

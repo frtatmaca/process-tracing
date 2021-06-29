@@ -1,0 +1,156 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@Scripts.Render("~/bundles/knockout")
+<div class="widget" style="width: 98% !important; margin-left:1%;">
+    <h4 class="widgettitle" style="background-color:green; margin-bottom:-5px !important">Filtreler</h4>
+    <div class="widgetcontent">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="inputPassword" class="col-md-2 control-label">Başlangıç Tarihi</label>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input id="datepicker" style="width:150px" type="text" placeholder="dd/MM/yyyy" name="date" class="form-control startDate datepicker" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword" class="col-md-2 control-label">Bitiş Tarihi</label>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input id="datepicker2" style="width: 150px" type="text" placeholder="dd/MM/yyyy" name="date" class="form-control endDate datepicker" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <br />
+            <div class="col-md-6">
+                <label for="actionName" class="col-md-3 control-label">Alt Faliyet Adı</label>
+                <input id="subActionName" type="text" class="form-control input-default" placeholder="Alt Faaliyet Adı">
+            </div>
+        </div>
+    </div>
+    <!-- widgetcontent-->
+</div>
+
+<div class="maincontentinner">
+    <div id="dyntable_wrapper" class="dataTables_wrapper" role="grid">
+        <div id="dyntable_length" class="dataTables_length">
+            <a class="createEditStudent btn btn-success btn-large" data-fancybox-type="iframe" href="@Url.Action("New", "SubAction", new { id = ViewBag.ActionId })">Yeni Alt Faliyet</a>
+            
+            <label class="pull-right">
+                Show
+                <select id="tablePageSize" size="1" aria-controls="dyntable">
+                    <option value="10" selected="selected">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                entries
+            </label>
+
+            <label class="pull-right">
+                Toplam Miktar:
+                <input style="width:20%" type="text" id="totalNumber" />                
+            </label>            
+            
+        </div>
+        <table id="dyntable" class="table table-bordered responsive dataTable" aria-describedby="dyntable_info">
+            <thead>
+                <tr role="row">
+                    <th class="head0 nosort sorting_asc" role="columnheader" tabindex="0" aria-controls="dyntable" rowspan="1" colspan="1" aria-sort="ascending" aria-label=": activate to sort column ascending" style="width: 46px;">
+                        <div class="checker" id="uniform-undefined">
+                            <span>
+                                <input type="checkbox" class="checkall" style="opacity: 0;">
+                            </span>
+                        </div>
+                    </th>
+                    <th class="head0 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 300px;">Ad</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Description</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Miktar</th>
+                    <th class="head1 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 369px;">Tarih</th>
+                    <th class="head0 sorting" role="columnheader" tabindex="0" aria-controls="dyntable" style="width: 185px;">Action</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: subaction_index.SubActionList()">
+                <tr class="gradeX odd">
+                    <td class="aligncenter  sorting_2">
+                        <span class="center">
+                            <div class="checker">
+                                <span>
+                                    <input class="commentApprove" type="checkbox" style="opacity: 0;">
+                                </span>
+                            </div>
+                        </span>
+                    </td>
+                    <td class="">
+                        <!-- ko if : SubActionType() === 1  -->
+                        <i class="icon-bookmark"></i>
+                        <a class="createEditStudent" data-fancybox-type="iframe" data-bind="attr: { href: '/Problem/ProblemDetail/' + ActionId() }"><span data-bind="text: Name"></span></a>
+                        <!-- /ko -->
+                        <!-- ko if : SubActionType() === 3  -->
+                        <span data-bind="text: Name"></span>
+                        <!-- /ko -->
+                    </td>
+                    <td class=""><span data-bind="text: Description"></span></td>
+                    <td class=""><span data-bind="text: Number"></span></td>
+                    <td class=""><span data-bind="text: StringCreatedDate"></span></td>
+                    <td class="center">
+                        @* <div class="btn-group">
+                                <button data-toggle="dropdown" class="btn btn-info dropdown-toggle">Action<span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li style="background-color:aqua"><a href="javascript:" data-bind="attr: { href: '/User/Edit/' + ActionId() }">View</a></li>
+                                    <li style="background-color:aqua"><a href="javascript:" data-bind="attr: { href: '/User/Edit/' + ActionId() }">Edit</a></li>
+                                    <li><a href="javascript:" onclick="javascript:user_index.userStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'aktif' }">Aktif</a></li>
+                                    <li><a href="javascript:" onclick="javascript:user_index.userStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'pasif' }">Pasif</a></li>
+                                    <li><a href="javascript:" onclick="javascript:user_index.userStatusReplace(this);" data-bind="attr: { 'data-Id': ActionId, 'data-status': 'delete' }">Delete</a></li>
+                                </ul>
+                            </div>*@
+                        <a class="btn btn-default alertboxbutton" data-bind="attr: { 'data-Id': ActionId() }" onclick="javascript:user_index.userStatusReplace(this);"><small>Sil</small></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="controls text-center">
+            <button type="submit" name="submit" class="btn blue btn-primary getReport hide">&nbsp;Get Report</button>
+            <a href="javascript:;" class="btn blue getReport hide"><i class="icon-reorder"></i>&nbsp;Get Report</a>
+            <p class="clearfix"></p>
+        </div>
+        @Html.Partial("_ODataPager")
+
+    </div>
+</div>
+
+<br>
+<br>
+@section Scripts
+{
+    <script src="~/Scripts/application/subaction_index.js"></script>
+    <script src="~/Scripts/adminTemplateJs/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/Scripts/adminTemplateJs/js/jquery-ui-1.10.3.min.js"></script>
+
+    <script src="~/Scripts/adminTemplateJs/js/bootstrap-timepicker.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            subaction_index.init('@ViewBag.ActionId');
+
+            jQuery(".datepicker").datepicker({
+                buttonImageOnly: true,
+                dateFormat: "dd/mm/yy",
+                monthNames: ["Ocak", "Subat", "Mart", "Nisan", "Mayis", "Haziran", "Temmuz", "Agustos", "Eylul", "Ekim", "Kasim", "Aralik"],
+                dayNamesMin: ["Pts", "Sl", "Crs", "Prs", "Cm", "Cts", "Pzr"]
+            });
+        });
+
+        function pagerAction(action, pageNum) {
+            subaction_index.pagerAction(action, pageNum);
+        }
+    </script>
+}

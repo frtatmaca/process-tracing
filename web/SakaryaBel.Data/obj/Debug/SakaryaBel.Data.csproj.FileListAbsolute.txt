@@ -1,0 +1,77 @@
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll.config
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.csprojResolveAssemblyReference.cache
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.dll
+C:\Users\sau\documents\visual studio 2012\Projects\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll.config
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.csprojResolveAssemblyReference.cache
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.dll
+C:\Users\sau\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll.config
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\tr\System.Web.Mvc.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\tr\System.Web.Razor.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\tr\System.Web.WebPages.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\bin\Debug\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll.config
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.pdb
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.csprojResolveAssemblyReference.cache
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.dll
+C:\Users\Metin\Desktop\tez sunumdan sonra\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.pdb
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll.config
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.dll
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Data.pdb
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.dll
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.dll
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\SakaryaBel.Core.pdb
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.xml
+D:\SakaryaBel\SakaryaBel.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.csprojResolveAssemblyReference.cache
+D:\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.dll
+D:\SakaryaBel\SakaryaBel.Data\obj\Debug\SakaryaBel.Data.pdb

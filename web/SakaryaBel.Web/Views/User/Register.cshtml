@@ -1,0 +1,188 @@
+﻿@model SakaryaBel.Web.Models.Register
+
+@{
+    ViewBag.Title = "Yeni Kullanıcı";
+}
+
+<link href="~/Content/css/select2.css" type="text/css" rel="stylesheet" />
+<style>
+    body:before {
+        background-color: #f2f2f2;
+    }
+
+    .select2-container {
+        width: 100%;
+    }
+</style>
+<h3>Yeni Kullanıcı</h3>
+<div class="widgetbox box-inverse">
+    <h4 class="widgettitle" style="margin-bottom:-5px"></h4>
+    <div class="widgetcontent nopadding">
+        @using (Html.BeginForm("Register", "User", FormMethod.Post, new { @class = "stdform stdform2", id = "frmUserNew" }))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.Hidden("fileTypeList")
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Kullanıcı Adı</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBoxFor(m => m.Username, new { @placeholder = "Kullanıcı Adı", @class = "input-xxlarge .span5", @id = "userName" })
+                    @Html.ValidationMessageFor(m => m.Username, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Ad</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBoxFor(m => m.Name, new { @placeholder = "Ad", @class = "input-xxlarge .span5", @id = "name" })
+                    @Html.ValidationMessageFor(m => m.Name, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Soyad</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBoxFor(m => m.Surname, new { @placeholder = "Soyisim", @class = "input-xxlarge .span5", @id = "surname" })
+                    @Html.ValidationMessageFor(m => m.Surname, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Email</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "Email", @class = "input-xxlarge .span5", @id = "email" })
+                    @Html.ValidationMessageFor(m => m.Email, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Şifre</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.PasswordFor(m => m.Password, new { @placeholder = "Şifre", @class = "input-xxlarge .span5", @id = "password" })
+                    @Html.ValidationMessageFor(m => m.Password, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Şifre Doğrula</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @placeholder = "Şifre Doğrula", @class = "input-xxlarge .span5", @id = "confirmPassword" })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Kullanıcı Tipi</label>
+                <span class="field col-xs-12 col-md-4">
+                    <select id="ddlUserType" name="ddlUserType">
+                        <option value="-1">Diğer</option>
+                        @foreach (var k in Enum.GetValues(typeof(SakaryaBel.Web.Enums.UserType)))
+                        {
+                            if (((SakaryaBel.Web.Enums.UserType)k == SakaryaBel.Web.Enums.UserType.SuperCheif))
+                            {
+                                if (User.IsInRole("SuperCheif"))
+                                {
+                                    <option value="@(Convert.ToInt32((SakaryaBel.Web.Enums.UserType)k))">@k</option>
+                                }
+                            }
+                            else
+                            {
+                                <option value="@(Convert.ToInt32((SakaryaBel.Web.Enums.UserType)k))">@k</option>
+                            }
+                        }
+                    </select>
+                </span>
+            </p>
+
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Şef</label>
+                <span class="field col-xs-12 col-md-4">
+                    @Html.TextBox("role", "", new { id = "role", @class = "span6" })
+                </span>
+            </p>
+
+            <p>
+                <label>Profil Resmi</label>
+                <div class="row field col-xs-12 col-md-6">
+                    <div>
+                        <div class="widget-box transparent">
+                            <div class="widget-body">
+                                <div class="widget-main no-padding">
+                                    <div class="form-horizontal">
+                                        <span class="btn block btn-success fileinput-button">
+                                            <i class="glyphicon glyphicon-plus"></i>
+                                            <span>Dosya Seç</span>
+                                            <input id="fileupload" type="file" name="files">
+                                        </span>
+                                        <br />
+                                        <span id="fileContainer"></span>
+                                        <br />
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0;">
+                                                <span class="sr-only">0% complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+
+            @*<p>
+                @Html.Partial("~/Views/Admin/_Uploader.cshtml")
+            </p>*@
+
+            <p class="stdformbutton pull-right">
+                <button id="btnCreate" type="submit" class="btn btnTeacherNewSubmit">Gönder</button>
+                <a href="/User/Index" class="btn">Iptal</a>
+            </p>
+        }
+    </div>
+    <!--widgetcontent-->
+</div>
+
+
+@section Scripts
+{
+    @*<link href="~/Content/themes/base/datepicker.css" rel="stylesheet" />*@
+
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload.js"></script>
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload-ui.js"></script>
+    <script src="~/Scripts/ui/document_create.js"></script>
+    <script src="~/Scripts/select2.js"></script>
+
+    @Scripts.Render("~/bundles/knockout")
+
+    <script>
+        var activitiesByType = [];
+        $(document).ready(function () {
+            //user_new.init();
+
+            var pageSize = 10000;
+            $('#role').select2(
+            {
+                placeholder: 'Lütfen Şef Seçiniz',
+                minimumInputLength: 0,
+                allowClear: true,
+                ajax: {
+                    quietMillis: 150,
+                    url: '/User/GetCheif/',
+                    dataType: 'jsonp',
+                    type: "POST",
+                    data: function (term, page) {
+                        return {
+                            searchTerm: term,
+                            pageSize: pageSize,
+                            pageNum: page
+                        };
+                    },
+                    results: function (data, page) {
+                        var more = (page * pageSize) < data.Total;
+                        return { results: data.Results, more: more };
+                    }
+                }
+            }).on('change', function (e) {
+                console.log("change");
+            }).on('select', function (e) {
+                console.log("select");
+            });
+        });
+    </script>
+}

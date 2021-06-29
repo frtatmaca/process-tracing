@@ -1,0 +1,175 @@
+﻿@model List<SakaryaBel.Web.Models.PdfModel>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<body>
+    <table border="1" style="width: 100% !important; border-color: black">
+        <tr>
+            <td colspan="3" style="background-color: #e4e0e0; text-align: center; vertical-align: central"><span style="font-size: 20px">Park ve Bahçeler Şube Müdürlüğü</span> </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: central; border-right: none">
+                <img src="~/images/logo.png" height="90" width="90" alt=""></td>
+
+            <td colspan="2" style="text-align: right; vertical-align: bottom; border-left: none">
+                <span>@DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss.fff", System.Globalization.CultureInfo.InvariantCulture)</span>
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    @foreach (var user in Model)
+    {
+        <table border="1" style="width: 100% !important; border-color: black">
+            <tr>
+                <td colspan="2" style="text-align: left; vertical-align: central">
+                    <b style="padding-left: 10px; padding-right: 20px">Kullanıcı Adı: </b>@user.UserName
+                    <br />
+                    <b style="padding-left: 10px; padding-right: 20px">Ad Soyad: </b>@(user.Name + " " + user.SurName)
+                    <br />
+                    <b style="padding-left: 10px; padding-right: 20px">Şef: </b>@user.CheifInfo
+                    <br />
+                    <b style="padding-left: 10px; padding-right: 20px">Rol: </b>@user.UserType.ToString()
+                </td>
+
+                <td style="text-align: center; vertical-align: central">
+                    <img src="@user.ProfilImageUrl" height="150" width="120" alt=""></td>
+            </tr>
+        </table>
+
+        <br />
+
+        <table border="1" style="width: 100% !important; border-color: black">
+            <tr>
+                <td colspan="5" style="text-align: left; vertical-align: central"><span style="font-size: 15px"><b>Sorun Listesi</b></span></td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Faliyet Başlığı</b>
+                </td>
+                <td>
+                    <b>Faliyet Detayı</b>
+                </td>
+                <td>
+                    <b>Oluşturulma Tarihi</b>
+                </td>
+                <td>
+                    <b>Tamamlanma Tarihi</b>
+                </td>
+                <td>
+                    <b>Faliyet Tipi</b>
+                </td>
+            </tr>
+            @foreach (var item in user.actList.Where(m => m.ActivityType == SakaryaBel.Web.Enums.ActivityType.Problem))
+            {
+                <tr>
+                    <td>@item.Name
+                    </td>
+                    <td>@item.Description
+                    </td>
+                    <td>@(item.StringCreatedDate)
+                    </td>
+                    <td>@(item.StringCompletedDate)
+                    </td>
+                    <td>@item.ActivityStatus.ToString()
+                    </td>
+                </tr>
+            }
+
+
+        </table>
+        <br />
+        <table border="1" style="width: 100% !important; border-color: black">
+            <tr>
+                <td colspan="5" style="text-align: left; vertical-align: central"><span style="font-size: 15px"><b>Faliyet Listesi</b></span></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Sorun Başlığı</b>
+                </td>
+                <td>
+                    <b>Sorun Detayı</b>
+                </td>
+                <td>
+                    <b>Oluşturulma Tarihi</b>
+                </td>
+                <td>
+                    <b>Tamamlanma Tarihi</b>
+                </td>
+                <td>
+                    <b>Sorun Durumu</b>
+                </td>
+            </tr>
+
+            @foreach (var item in user.actList.Where(m => m.ActivityType == SakaryaBel.Web.Enums.ActivityType.Action))
+            {
+                <tr style="background-color: azure">
+                    <td>@item.Name
+                    </td>
+                    <td>@item.Description
+                    </td>
+                    <td>@(item.StringCreatedDate)
+                    </td>
+                    <td>@(item.StringCompletedDate)
+                    </td>
+                </tr>
+            
+                foreach (var item2 in user.actList.Where(m => m.ActionId.HasValue && m.ActionId == item.ActivityId))
+                {
+                <tr>
+                    <td>@item2.Name
+                    </td>
+                    <td>@item2.Description
+                    </td>
+                    <td>@(item2.StringCreatedDate)
+                    </td>
+                    <td>@(item2.StringCompletedDate)
+                    </td>
+                    <td>Alt Faliyet
+                    </td>
+                </tr>                        
+                }
+            }
+        </table>
+    }
+
+</body>
+</html>
+
+
+@*<table border="1" style="width: 100% !important; border-color:black">
+        <tr>
+            <td colspan="3" style="background-color: grey" align="center" valign="top">SSLC Marks Sheet 2013</td>
+        </tr>
+        <tr>
+            <td>asdfg
+                Riyaz Akhter<br />
+                RollNo:56</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightblue">Subject)</td>
+            <td bgcolor="lightblue">FullMarks)</td>
+            <td bgcolor="lightblue">Obtained)</td>
+        </tr>
+        @{
+            int total = 0;
+        }
+
+        <tr>
+            <td>item.Subject</td>
+            <td>item.FullMarks</td>
+            <td>item.Obtained</td>
+        </tr>
+        total += item.Obtained;
+        
+        <tr>
+            <td></td>
+            <td>
+                <strong><font color="GREEN">Total</font></strong>
+            </td>
+            <td>asd</td>
+        </tr>
+    </table>*@

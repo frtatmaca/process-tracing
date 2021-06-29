@@ -1,0 +1,28 @@
+<ion-modal-view >
+  <ion-header-bar>
+    <h2 class="title">Talep Görüntüle</h2>
+    <div class="buttons">
+      <button class="button button-assertive" ng-click="closeModal()">
+        İptal
+      </button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="list card">
+      <div class="item item-divider">
+        <label class="item item-input" style="background-color: transparent;">
+          <span class="input-label pull-right">Talep Başlığı</span>
+          <input type="input-label pull-left" ng-model="report.title" style="background-color: white;">
+        </label>
+      </div>
+      <div class="item item-body">
+        <img ng-if="resource.Type==0" class="img-rounded" ng-src="{{resource.Url}}" style="height:300px;width:300px;display:block"  >
+        <video ng-if="resource.Type==1" width="100%" height="auto" ng-src="{{resource.Url}}" controls autoplay class="centerme">
+        </video>
+      </div>
+      <div class="item item-divider">
+        <input type="input-label pull-left" ng-model="report.description" style="background-color: white;">
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

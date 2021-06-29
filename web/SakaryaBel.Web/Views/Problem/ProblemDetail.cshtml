@@ -1,0 +1,214 @@
+﻿@model SakaryaBel.Web.Models.ProblemDetailListModel
+@{
+    ViewBag.Title = "ProblemDetay";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<link href="~/Content/css/select2.css" type="text/css" rel="stylesheet" />
+
+<style>
+    #ticketResponse {
+        height: auto;
+        height: 50px;
+    }
+
+    body:before {
+        background-color: #f2f2f2;
+    }
+
+    .select2-container {
+        width: 100%;
+    }
+</style>
+
+<div class="maincontent">
+    <div class="maincontentinner">
+        <div class="row">
+            <div class="col-md-4 profile-left">
+                <div class="widgetbox profile-photo">
+                    <div class="headtitle">
+                        <h4 class="widgettitle" style="margin-bottom: -5px">Sorun Detay
+
+                            <a href="javascript:void(0)" id="statusIcon" style="background:@Model.BackGroundColor" class="btn @Model.BackGroundColor pull-right"><i class="iconsweets-clock iconsweets-white"></i></a>
+                        </h4>
+
+                    </div>
+                    <div class="widgetcontent">
+                        <div class="profilethumb">
+                            @if (Model.FileType.Value == SakaryaBel.Web.Enums.FileType.Audio || Model.FileType.Value == SakaryaBel.Web.Enums.FileType.Video)
+                            {
+                                @Html.Partial("PlayerControl", new ContentDetail { SourceUrl = Model.FileName })
+                            }
+                            else
+                            {
+                                 <img src="@Model.FileName" alt="" class="img-polaroid">
+                                @*
+                                string fileUrl = "<iframe width='%80' height='65%' src='" + "/Files/" + Model.FileName + "'></iframe>";
+
+                                @Html.Raw(fileUrl)*@
+                            }
+                           
+                        </div>
+                        <!--profilethumb-->
+                        <br />
+                        <table class="table table-bordered table-invoice">
+                            <tbody>
+                                <tr>
+                                    <td class="width30">Başlık</td>
+                                    <td class="width70">@Model.Name</td>
+                                </tr>
+                                <tr>
+                                    <td>Açıklama</td>
+                                    <td>
+                                        @Model.Description
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Oluşturulma Tarihi</td>
+                                    <td>@Model.CreatedDate</td>
+                                </tr>
+                                <tr>
+                                    <td>Faaliyet Olarak Ata</td>
+                                    <td>@Html.TextBox("actionList", "", new { id = "actionList", @class = "span6" })</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-bordered table-invoice">
+                            <tbody>
+                                <tr>
+                                    <td class="width30" colspan="4" style="text-align: center">Sorun Statüsü</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center"><a href="javascript:void(0)" onclick="javascript:problem_detail.changeProblemStatus(this);" class="btn btn-danger alertdanger changeProblemStatus" style="color:white" data-id="0"><small>Yeni</small></a></td>
+                                    <td style="text-align: center"><a href="javascript:void(0)" onclick="javascript:problem_detail.changeProblemStatus(this);" class="btn btn-success alertsuccess changeProblemStatus" style="color:white" data-id="2"><small>Kapat</small></a></td>
+                                    <td style="text-align: center"><a href="javascript:void(0)" onclick="javascript:problem_detail.changeProblemStatus(this);" class="btn btn-info alertinfo changeProblemStatus" style="color:white" data-id="1"><small>Yöneticiye Ata</small></a></td>
+                                    @if (User.IsInRole("SuperCheif"))
+                                    {
+                                        <td style="text-align: center"><a href="javascript:void(0)" onclick="javascript:problem_detail.changeProblemStatus(this);" class="btn btn-info alertinfo changeProblemStatus" style="background:#A523A7 !important;color:white" data-id="4"><small>Yönetici Kapat</small></a></td>
+                                    }                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--col-md-4-->
+            <div class="col-md-8">
+
+                <form action="editprofile.html" class="editprofileform" method="post">
+
+                    <div class="widgetbox personal-information">
+                        <h4 class="widgettitle" style="margin-bottom: -5px">Mesaj</h4>
+                        <div class="widgetcontent form-horizontal">
+
+                            <ul class="comments">
+                                @foreach (var item in @Model.messages)
+                                {
+                                    <li style="padding-bottom: -20px !important">
+                                        <a class="authorimg" href="">
+                                            <img alt="" src="@item.SenderProfilImage"></a>
+                                        <div class="comment">
+                                            <div class="commentauthor">
+                                                <strong>@item.SenderUserName</strong> <span class="commenttime">@item.CreatedDate</span> - <a href="" class="commentreply">Reply</a>
+                                            </div>
+                                            <p class="commentbody">@item.Body</p>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                    <div class="widgetbox personal-information" style="border: #47a447 !important">
+                        <h4 class="widgettitle" style="margin-bottom: -5px; background-color: #47a447">Cevapla</h4>
+                        <div class="widgetcontent">
+                            @Html.TextArea("response", new { @id = "response", rows = "4", cols = "50", @placeholder = "Cevap Metni" })
+                        </div>
+                    </div>
+                    <p class="pull-right">
+                        <button id="commentSend" type="button" class="btn btn-primary">Güncelle</button>
+                        &nbsp;
+                        @*<a class="createEditStudent btn btn-danger btn-large" data-fancybox-type="iframe" href="@Url.Action("ChangePassword", "User", new {id = 0})">Şifre Değiştir</a>*@
+                        <a href="javascript:parent.jQuery.fancybox.close();" class="btn btn-default">İptal</a>
+                    </p>
+
+                </form>
+            </div>
+            <!--col-md-8-->
+        </div>
+        <!--row-->
+
+    </div>
+    <!--maincontentinner-->
+</div>
+
+@section Scripts
+{
+    @*<link href="~/Content/themes/base/datepicker.css" rel="stylesheet" />*@
+
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload.js"></script>
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload-ui.js"></script>
+    <script src="~/Scripts/application/problem_detail.js"></script>
+    <script src="~/Scripts/select2.js"></script>
+
+    @Scripts.Render("~/bundles/knockout")
+
+    <script>
+        var activitiesByType = [];
+        $(document).ready(function () {
+            problem_detail.init('@Model.ActionId', '@User.Identity.Name', '@Model.BackGroundColor');
+        });
+
+        var pageSize = 10000;
+        $('#actionList').select2(
+            {
+                placeholder: 'Lütfen Faliyet Seçiniz',
+                minimumInputLength: 0,
+                allowClear: true,
+                ajax: {
+                    quietMillis: 150,
+                    url: '/Problem/GetActionList/',
+                    dataType: 'jsonp',
+                    type: "POST",
+                    data: function (term, page) {
+                        return {
+                            searchTerm: term,
+                            pageSize: pageSize,
+                            pageNum: page,
+                            CreatedUserId: '@Model.CreatedUserId'
+                        };
+                    },
+                    results: function (data, page) {
+                        var more = (page * pageSize) < data.Total;
+                        return { results: data.Results, more: more };
+                    }
+                }
+            }).on('change', function (e) {
+                console.log("change");
+
+                $.ajax({
+                    url: '/Problem/ChangeProblemOfAction/',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { problemId: '@Model.ActionId', actionId: $(this).val() },
+                    success: function (data) {
+                    },
+                    error: function (res) {
+                        console.log('Error in process.');
+                    }
+                });
+            }).on('select', function (e) {
+                console.log("select");
+            }).select2("data", { id: '@Model.ActId', text: '@Model.ActionName' });
+
+
+        function OnSuccess() {
+            parent.jQuery.fancybox.close();
+        }
+    </script>
+}

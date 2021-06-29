@@ -1,0 +1,167 @@
+﻿@model SakaryaBel.Web.Models.Problem
+
+@{
+    ViewBag.Title = "Yeni Sorun";
+}
+
+<link href="~/Content/css/select2.css" type="text/css" rel="stylesheet" />
+<style>
+    body:before {
+        background-color: #f2f2f2;
+    }
+
+    .select2-container {
+        width: 100%;
+    }
+</style>
+<h3>Yeni Sorun</h3>
+<div class="widgetbox box-inverse">
+    <h4 class="widgettitle" style="margin-bottom: -5px"></h4>
+    <div class="widgetcontent nopadding">
+        @using (Html.BeginForm("New", "Problem", FormMethod.Post, new { @class = "stdform stdform2", id = "frmActionNew" }))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.HiddenFor(m => m.ProblemId)
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Sorun Başlığı</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBoxFor(m => m.Name, new { @placeholder = "Sorun Başlığı", @class = "input-xxlarge .span5", @id = "name" })
+                    @Html.ValidationMessageFor(m => m.Name, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+
+            <p>
+                <label><span style="color: red; font-size: 20px">&nbsp;*</span>Sorun Açıklama</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextAreaFor(m => m.Description, new { @placeholder = "Detay", @class = "form-control", @id = "description" })
+                    @Html.ValidationMessageFor(m => m.Description, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                </span>
+            </p>
+          
+            <p>
+                <label>Atanacak Kulanıcı</label>
+                <span class="field col-xs-12 col-md-6">
+                    @Html.TextBox("ddlUserList", "", new { id = "ddlUserList", @class = "col-md-3" })
+                </span>
+            </p>
+            if (!string.IsNullOrEmpty(Model.FileUrl))
+            {
+            <p>
+                <label>Dosya</label>
+                <span class="field col-xs-12 col-md-6">
+                    <a class="createEditStudent" data-fancybox-type="iframe" href="/Problem/FilePreview/@Model.FileId">@Model.FileUrl</a>
+                </span>
+            </p>
+            }
+            
+                              
+            <p>
+                <label>Dosya</label>
+                <div class="row field col-xs-12 col-md-6">
+                    <div>
+                        <div class="widget-box transparent">
+                            <div class="widget-body">
+                                <div class="widget-main no-padding">
+                                    <div class="form-horizontal">
+                                        <span class="btn block btn-success fileinput-button">
+                                            <i class="glyphicon glyphicon-plus"></i>
+                                            <span>Dosya Seç</span>
+                                            <input id="fileupload" type="file" name="files">
+                                        </span>
+                                        <br />
+                                        <span id="fileContainer"></span>
+                                        <br />
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0;">
+                                                <span class="sr-only">0% complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+            
+            <p class="stdformbutton pull-right">
+                <button id="btnCreate" type="submit" class="btn btnTeacherNewSubmit">Gönder</button>
+                <a href="/Problem/Index" class="btn">Iptal</a>
+            </p>
+        }
+    </div>
+    <!--widgetcontent-->
+</div>
+
+
+@section Scripts
+{
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload.js"></script>
+    <script src="~/Scripts/jQuery.FileUpload/jquery.fileupload-ui.js"></script>
+    <script src="~/Scripts/ui/problem_edit.js"></script>
+
+    @Scripts.Render("~/bundles/knockout")
+
+    <script src="~/Scripts/select2.js"></script>
+    <script>
+
+        var pageSize = 10000;
+        var userList = '@Html.Raw(Json.Encode(ViewBag.UserList))'
+        console.log(userList);
+        var obj = jQuery.parseJSON(userList);
+        $('#ddlUserList').select2(
+            {
+                placeholder: 'Lütfen Kullanıcı Seçiniz',
+                minimumInputLength: 0,
+                allowClear: true,
+                ajax: {
+                    quietMillis: 150,
+                    url: '/Problem/GetUserList/',
+                    dataType: 'jsonp',
+                    type: "POST",
+                    data: function (term, page) {
+                        return {
+                            searchTerm: term,
+                            pageSize: pageSize,
+                            pageNum: page
+                        };
+                    },
+                    results: function (data, page) {
+                        var more = (page * pageSize) < data.Total;
+                        return { results: data.Results, more: more };
+                    }
+                }
+            }).on('change', function (e) {
+                action_index.trigerLoadFromServer();
+            }).on('select', function (e) {
+                console.log("select");
+            }).select2("data", { id: '@Model.UserId', text: '@Model.UserName' });
+
+        $(document).ready(function () {
+            //user_new.init();
+
+            $('.createEditStudent').fancybox({
+                fitToView: false,
+                width: '900px',
+                height: '600px',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none',
+                padding: 0,
+                closeBtn: false,
+                'afterClose': function () {
+                    //window.location.reload();
+                    //LoadFromServer(1, getFilters(0, $("#tablePageSize").val(), isAdvanced));
+                },
+                helpers: {
+                    overlay: {
+                        css: {
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

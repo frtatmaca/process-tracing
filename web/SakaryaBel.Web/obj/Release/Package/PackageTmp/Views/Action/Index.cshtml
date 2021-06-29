@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@Scripts.Render("~/bundles/knockout")
+
+<h3>Faliyet Listesi</h3>
+<div class="widget" style="width: 98% !important; margin-left:1%;">
+    <h4 class="widgettitle" style="background-color:#808080; margin-bottom:-5px !important">Filtreler</h4>
+    <div class="widgetcontent">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="actionName" class="col-md-3 control-label">Faaliyet Adı</label>
+                <input id="actionName" type="text" class="form-control input-default" placeholder="Faaliyet Adı">
+            </div>
+
+        </div>
+    </div>
+    <!-- widgetcontent-->
+</div>
+
+<div class="maincontentinner">
+    <div id="dyntable_wrapper" class="dataTables_wrapper" role="grid">
+        <div id="dyntable_length" class="dataTables_length">
+            <label>
+                Gösterilecek Kayıt
+                <select id="tablePageSize" size="1" aria-controls="dyntable">
+                    <option value="10">10</option>
+                    <option value="25" selected="selected">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                sayısı
+            </label>
+        </div>
+
+        <div class="peoplelist">
+            <div class="row" data-bind="foreach: action_index.ActionList()">
+
+                <div class="col-md-3">
+                    <div class="peoplewrapper">
+                        <div class="thumb">
+                            <img class="col-md-2" style="padding-top:2% !important" src="~/images/photos/nothumb.png" alt="">
+                        </div>
+                        <div class="peopleinfo">
+                            <h4>
+                                <a class='tooltipped' data-position="left" data-delay="1"
+                                       data-bind="attr: {  href: '/SubAction/Index/'+ ActionId() }">
+                                        <span data-bind="text: Name"></span>
+                                    </a>
+                              @*  <a href=""><span data-bind="text: Name"></span></a>*@
+                                <br /><span class="off" data-bind="text: Description"></span>
+                                <br/><span class="pull-right" style="font-size: 20px !important" data-bind="text: SubActionCount"></span>
+                                <br />
+                            </h4>
+                        </div>
+                        <!--peopleinfo-->
+                    </div>
+                    <!--peoplewrapper-->
+                </div>
+
+            </div>
+        </div>
+        <!--peoplelist-->
+
+        <div class="controls text-center">
+            <button type="submit" name="submit" class="btn blue btn-primary getReport hide">&nbsp;Get Report</button>
+            <a href="javascript:;" class="btn blue getReport hide"><i class="icon-reorder"></i>&nbsp;Get Report</a>
+            <p class="clearfix"></p>
+        </div>
+        @Html.Partial("_ODataPager")
+
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/Scripts/application/action_index.js"></script>
+    <script>
+        $(document).ready(function () {
+            action_index.init();
+        });
+
+        function pagerAction(action, pageNum) {
+            action_index.pagerAction(action, pageNum);
+        }
+    </script>
+}

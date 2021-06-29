@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="firat78-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Metin\\Desktop\\SakaryaBel\\SakaryaBel\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Metin\\Desktop\\SakaryaBel\\SakaryaBel\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SakaryaBelConnection-Web.config Connection String" description="" value="Data Source=SQL5012.Smarterasp.net;Initial Catalog=DB_9F2698_test;Persist Security Info=True;User ID=DB_9F2698_test_admin;Password=19881903mavi" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Metin\\Desktop\\SakaryaBel\\SakaryaBel\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SakaryaBelConnection']/@connectionString" />
+  </parameter>
+</parameters>

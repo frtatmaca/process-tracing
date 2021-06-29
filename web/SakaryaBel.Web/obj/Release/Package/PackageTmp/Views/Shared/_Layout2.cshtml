@@ -1,0 +1,103 @@
+﻿@*<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta charset="utf-8" />
+        <meta name="description" content="overview &amp; stats" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>@ViewBag.Title</title>
+        @RenderSection("Head", required: false)
+    </head>
+    <body class="no-skin">
+        <div id="navbar" class="navbar navbar-default">
+            <div class="navbar-container" id="navbar-container">
+                <div class="navbar-header pull-left">
+                    <a href="javascript:void(0)" class="navbar-brand brandElement">
+
+                    </a>
+                </div>
+                <div class="navbar-header pull-left">
+
+                </div>
+                <div class="navbar-buttons navbar-header pull-right" role="navigation">
+                    <ul class="nav ace-nav">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-container container-fluid" style="padding-left:0 !important;padding-right:0 !important;">
+            <div class="main-content">
+                <div class="page-content">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        @RenderSection("Scripts", required: false)
+    </body>
+    </html>*@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park ve Bahçeler Şube Müdürlüğü</title>
+    <link rel="stylesheet" href="~/Content/adminThema/css/style.default.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/adminThema/prettify/prettify.css" type="text/css" />
+
+    <meta charset="utf-8" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+
+</head>
+
+<body style="background:white !important">
+
+
+    <div class="maincontent">
+        <div class="maincontentinner">
+
+            @RenderBody()
+
+        </div>
+        <!--maincontentinner-->
+    </div>
+    <!--maincontent-->
+    <!--mainwrapper-->
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>    
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/amplify.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery-ui-1.10.3.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/prettify/prettify.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery.alerts.js"></script>
+
+    <script type="text/javascript" src="~/Content/adminThema/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/custom.js"></script>
+    <script type="text/javascript" src="~/Content/adminThema/js/elements.js"></script>
+
+
+
+
+    @Scripts.Render("~/bundles/dataservice")
+
+    @Scripts.Render("~/bundles/application")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+        serviceInitializer.init();
+    </script>
+</body>
+</html>

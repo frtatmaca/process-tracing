@@ -1,0 +1,29 @@
+﻿<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+<script src="http://malsup.github.com/jquery.form.js"></script>
+<script>
+    (function () {
+        $('form').ajaxForm({
+            success: function () {
+
+            },
+            complete: function (xhr) {
+                if (xhr.responseText.trim() != "") {
+                    $('#status').prepend('<img id="theImg" src="../Images/' + xhr.responseText + '" width="100" height="100"/>');
+                    $('#ImageUrl').val(xhr.responseText);
+                }
+            }
+        });
+
+    })();
+</script>
+@using (Ajax.BeginForm("FileUpload", "Home", new AjaxOptions() { HttpMethod = "POST" }, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <table>
+        <tr>
+            <td><input type="file" name="files" id="fileUploadControl"></td>
+            <td><input type="submit" value="Upload"></td>
+            <td><div id="status"></div></td>
+        </tr>
+    </table>
+}
